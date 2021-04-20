@@ -1,16 +1,17 @@
-﻿@model TodoListWebApp.Models.Task
+﻿@model TodoListWebApp.Models.Todo
 
 @{
-    ViewData["Title"] = "할일등록";
+    ViewData["Title"] = "할일수정";
 }
 
-<h2>할일등록</h2>
+<h2>할일수정</h2>
 
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <label asp-for="Title" class="control-label">제목</label>
                 <input asp-for="Title" class="form-control" />
@@ -18,7 +19,7 @@
             </div>
             @*<div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="isDone" /> @Html.DisplayNameFor(model => model.isDone)
+                    <input class="form-check-input" asp-for="IsDone" /> @Html.DisplayNameFor(model => model.IsDone)
                 </label>
             </div>
             <div class="form-group">
@@ -28,7 +29,7 @@
             </div>*@
         <div class="form-group">
             <input type="submit" value="저장" class="btn btn-primary" />
-            <a asp-action="Index" class="btn btn-info">취소</a>
+            <a asp-action="Index" class="btn btn-secondary">뒤로</a>
         </div>
         </form>
     </div>

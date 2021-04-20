@@ -8,6 +8,6 @@ namespace TodoListWebApp.Models
         {
         }
 
-        public DbSet<Task> Tasks { get; set; }
+        public DbSet<Todo> Todos { get; set; }
     }
 }
