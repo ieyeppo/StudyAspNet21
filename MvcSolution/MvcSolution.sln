@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicMvcWebApp", "BasicMvcWebApp\BasicMvcWebApp.csproj", "{F5AFD3EB-8D74-4928-B302-AB12D8832221}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicMvcWebApp", "BasicMvcWebApp\BasicMvcWebApp.csproj", "{F5AFD3EB-8D74-4928-B302-AB12D8832221}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbWebApp", "DbWebApp\DbWebApp.csproj", "{5A9D5AC6-383B-455D-A6BD-7D1A10FA9D4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbWebApp", "DbWebApp\DbWebApp.csproj", "{5A9D5AC6-383B-455D-A6BD-7D1A10FA9D4D}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MvcWebLab.Database", "MvcWebLab.Database\MvcWebLab.Database.sqlproj", "{5D863856-3FA7-456C-ADFF-437F2B334E21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListWebApp", "TodoListWebApp\TodoListWebApp.csproj", "{A1C65AAD-598D-4290-967C-AA822E7DC564}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoListWebApp", "TodoListWebApp\TodoListWebApp.csproj", "{A1C65AAD-598D-4290-967C-AA822E7DC564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiTestApp", "RestApiTestApp\RestApiTestApp.csproj", "{563DAF07-7AE7-45C0-BBA3-BC7E9D17E664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPortpolio", "MyPortpolio\MyPortpolio.csproj", "{F0205891-B02F-4935-B277-A4AF5FA8BCAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{A1C65AAD-598D-4290-967C-AA822E7DC564}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1C65AAD-598D-4290-967C-AA822E7DC564}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1C65AAD-598D-4290-967C-AA822E7DC564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563DAF07-7AE7-45C0-BBA3-BC7E9D17E664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563DAF07-7AE7-45C0-BBA3-BC7E9D17E664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563DAF07-7AE7-45C0-BBA3-BC7E9D17E664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563DAF07-7AE7-45C0-BBA3-BC7E9D17E664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0205891-B02F-4935-B277-A4AF5FA8BCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0205891-B02F-4935-B277-A4AF5FA8BCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0205891-B02F-4935-B277-A4AF5FA8BCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0205891-B02F-4935-B277-A4AF5FA8BCAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
