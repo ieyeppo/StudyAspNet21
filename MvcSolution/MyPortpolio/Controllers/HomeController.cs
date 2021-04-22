@@ -43,12 +43,12 @@ namespace MyPortpolio.Controllers
             return View();
         }
 
-        public IActionResult Login()
+        public IActionResult Board()
         {
             return View();
         }
 
-        public IActionResult Board()
+        public IActionResult Login()
         {
             return View();
         }
